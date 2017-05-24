@@ -1,0 +1,82 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ \geometry{margin=1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{plain} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Improving Mobile Signal reception In Makerere University}
+\author{Kanyesigye Emmanuel 15/u/21140/eve 215021157}
+\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The Uganda Communications Commission (UCC) is the regulator of the communications sector in Uganda. One of the functions of UCC, under the Uganda Communications Act 2013, is to promote the interests of consumers and operators as regards the quality of communications services and equipment.\\In this regard, UCC carried out a Quality of Service (QoS) performance exercise on the five (5) operational Global System for Mobile communications (GSM) networks from February-June 2014 in Jinja, Kabale, Kampala, Kasese, Masaka, Mbale, Mbarara and Mukono. The five (5) operators are Airtel Uganda Limited, MTN Uganda Limited, Uganda Telecom Limited (utl), Orange Uganda Limited and Warid Telecom Uganda Limited.\\The networks were evaluated against UCC Key Performance Indicators which are: less than 2\% for dropped call rate (DCR), less than 2\% for blocked call rate (BCR) and greater than or equal to 98\% for successful call rate (SCR). \\The five GSM networks evaluated are Uganda Telecom Limited, MTN Uganda Limited, Airtel Uganda Limited, Warid Telecom Uganda Limited and Orange Uganda Limited. UCC hereby presents the results of the exercise. The graphs presented below are an average of all the towns monitored.\\
+Dropped Calls: A dropped call is one that is terminated by the network before it is ended by either parties participating in the call. UCC set limit for maximum proportion of call attempts on the network that may be dropped is 2\%.The UCC set limit for maximum proportion of call attempts on the network that may be successful is 98\%.\\
+Successful Calls: A successful call is one that progresses into conversation and is terminated by either the calling or the called party. UCC set limit for minimum proportion of call attempts on the network that may be successful is 98\%.
+
+\section{Problem Statement}
+While SCR has persistently averaged 98\% in kampala accross all networks, subscribers within makerere university still experience hardships in making successful phone calls which calls for a localised survey within makerere to establish the true cause.
+\subsection{General Causes of Network Failures}
+The internal network deficiencies on the radio access, backhaul and core nodes, inadequate network coverage and delays in responding to network outages as well as ineffective power back up systems are the major causes of network failures that severely impact quality of service.\\ The networks have reported rampant vandalism of communications infrastructure in form of fibre cable cuts, battery and fuel thefts at sites. Airtel and MTN Uganda Limited have reported multiple fibre cuts in Kampala,Eastern and Western Uganda which severely impacted their performance in Mbarara, Masaka, Kasese and Kabale. Fibre cuts in Kampala were attributed to the on-going road works along Jinja road.\\At least 40\% of network failures were attributed to fibre cuts, battery and fuel thefts. Unstable power supply and insufficient power backup systems had a significant impact on performance of the Uganda Telecom Limited network in Kampala and Western region coupled with incidents of copper cable cuts and thefts at site. \\The networks have also reported administrative delays by local authorities in Kampala and regulatory organs in the approval of way leaves and permission to roll out sites.\\60\% of the failures were attributed to internal network technical deficiencies that included capacity restraints, poor planning, hardware failures and delays in rectification of failures and outages.
+\section{Main Objective}
+The objective of the study is to collect user data regarding the frequency of Quality of Service related network problems as well their spartial distribution so that appropriate remedies can be devised. 
+\section{Methodology}
+ Data collection is to be done electronically by an electronic data collection system using Open Data Kit (ODK).\\It has three components - ODK-Build, ODK-Collect and ODK-Aggregate. \\The Build part is an online system used to create an xml form that you can either transfer to your phone or upload to the Aggregate server and have it transfered to your phone. ODK collect is an app on the Google Play Store that is to be used to collect  data.\\The data collection form  will be developed  using ODK build and uploaded to a mobile phone and make sure the pipeline phone-to-server is working.\\ The collected data will  include the following types of data images, GPS coordinates, in addition to the usual text and numeric fields.\\Data is to be collected from mobile subscribers in Halls of Residence, Faculty buildings as well as major administration blocks\\The data collected will be analysed to determine the most affected parts of makerere university.  
+\subsection{Sample Data Collecton Form}
+\section{Referrences}
+1. UCC QUALITY OF SERVICE PERFORMANCE REPORT, FEBRUARY-JUNE 2014.
+
+
+\end{document}
